@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les cartes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container content">
+        <header class="hero welcome">
+            <div class="hero-body">
+                <h1 class="title">The Good Card</h1>
+            </div>
+        </header>
+
+        <header id="gameInfo" class="hero game is-hidden">
+            <div class="hero-body">
+                <div class="columns">
+                    <div class="column pseudo">Pierre</div>
+                    <div class="column level">Niveau 1</div>
+                    <div class="column score">0 pt</div>
+                </div>
+            </div>
+        </header>
+        <section id="playerForm" class="section login">
+            <form action="" class="form">
+                <h1 class="title">Qui joue ?</h1>
+                <div class="field">
+                    <input type="text" class="input">
+                    <p class="error hidden">Pseudo déjà utilisé</p>
+                </div>
+                <a href="#" id="startBtn" class="button">Jouer</a>
+            </form>
+        </section>
+        <section id="gameScreen" class="game section is-hidden">
+            <div class="card played">3</div>
+            <div class="card dropzone"></div>
+            <div class="pass">
+                <button class="button is-danger">Passer</button>
+            </div>
+            <div class="columns my-cards">
+                <div class="column" draggable="true">
+                    <div class="card">2</div>
+                </div>
+                <div class="column" draggable="true">
+                    <div class="card">4</div>
+                </div>
+                <div class="column" draggable="true">
+                    <div class="card">5</div>
+                </div>
+                <div class="column" draggable="true">
+                    <div class="card">7</div>
+                </div>
+                <div class="column" draggable="true">
+                    <div class="card">10</div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

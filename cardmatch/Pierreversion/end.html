@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+</head>
+<body>
+    <div class="container content">
+        <header class="hero">
+            <div class="hero-body">
+                <h1>The Good Card</h1>
+            </div>
+        </header>
+        <section class="section">
+            <h1><span class="login"></span></h1>
+            <p>Score = <span class="score"></span></p>
+            <a href="#" class="replay button">Rejouer ?</a>
+            <a href="#" class="quitter button">Quitter ?</a>
+        </section>
+    </div>
+    <script>
+        const $score = document.querySelector('.score')
+        const $login = document.querySelector('.login')
+        const $replay = document.querySelector('.replay')
+        const $quit = document.querySelector('.quitter')
+
+        $score.innerText = sessionStorage.score
+        $login.innerText = sessionStorage.userLogin
+
+        $replay.addEventListener('click', e => {
+            e.preventDefault()
+            sessionStorage.score = 0
+            location.href = "index.html"
+        })
+
+        $quit.addEventListener('click', e => {
+            e.preventDefault()
+            sessionStorage.clear()
+            location.href = "index.html"
+        })
+    </script>
+</body>
+</html>
