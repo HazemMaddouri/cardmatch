@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T08:18:13.905Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="uxSO-aC_cN67xMayS-31" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T08:18:34.125Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="0EiNYphxQX18MjWBBM19" version="22.1.16" type="github">
   <diagram name="Page-1" id="mNrdGtnnIu8wqn67oJG9">
     <mxGraphModel dx="1186" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
         <mxCell id="TILGJaxTvHGr1C7I726q-46" value="Level 4 :&lt;br&gt;Cards contain HEARTS CLUBS DIAMONDS SPADES in RED and BLACK with a NUMBER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="542" y="790" width="278" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TILGJaxTvHGr1C7I726q-51" value="CPU has cards that can not repeat: store card played&lt;br&gt;Game has to match the cards: match number on lvl1 / match numbers-color on lvl2 / match number-color-sign on lvl3&lt;br&gt;Local storage contains: playerName-playerScore-playerCardsPlayed / cpuCardsPlayed-(possibly more)&lt;br&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="TILGJaxTvHGr1C7I726q-51" value="CPU has cards that can not repeat: store card played&lt;br&gt;Game has to match the cards: match number on lvl1 / match numbers-color on lvl2 / match number-color-sign on lvl3&lt;br&gt;Local storage contains: playerName-playerScore / cpuCardsPlayed-(possibly more)" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry y="1000" width="820" height="160" as="geometry" />
         </mxCell>
         <mxCell id="TILGJaxTvHGr1C7I726q-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TILGJaxTvHGr1C7I726q-52" target="TILGJaxTvHGr1C7I726q-54">
