@@ -1,9 +1,112 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T07:41:31.209Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.16" etag="zkEtDEnbO7KL4yTwsPgP" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T08:18:13.905Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="uxSO-aC_cN67xMayS-31" version="22.1.16" type="github">
   <diagram name="Page-1" id="mNrdGtnnIu8wqn67oJG9">
-    <mxGraphModel>
+    <mxGraphModel dx="1186" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TILGJaxTvHGr1C7I726q-2" value="CPU" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-3" value="Player" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TILGJaxTvHGr1C7I726q-4" target="TILGJaxTvHGr1C7I726q-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-4" value="Cards CPU" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TILGJaxTvHGr1C7I726q-5" target="TILGJaxTvHGr1C7I726q-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-5" value="Cards player" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-6" value="Card holders&lt;br&gt;CPU / Player" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-7" value="Cards" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TILGJaxTvHGr1C7I726q-10" target="TILGJaxTvHGr1C7I726q-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-10" value="Match or pass" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TILGJaxTvHGr1C7I726q-12" target="TILGJaxTvHGr1C7I726q-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-12" value="Level" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TILGJaxTvHGr1C7I726q-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-14" value="Level up if all cards matched" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TILGJaxTvHGr1C7I726q-20" target="TILGJaxTvHGr1C7I726q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-20" value="&lt;font color=&quot;#82b366&quot;&gt;Success&lt;/font&gt; / &lt;font color=&quot;#b85450&quot;&gt;Fail&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="370" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-29" value="Level" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TILGJaxTvHGr1C7I726q-33" target="TILGJaxTvHGr1C7I726q-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-33" value="Points" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-35" value="Points" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-36" value="Add point" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="420" y="290" width="83" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-37" value="Subtract point" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="457" y="390" width="83" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-40" value="Level 1 :&lt;br&gt;Cards contain only numbers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="130" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TILGJaxTvHGr1C7I726q-42" target="TILGJaxTvHGr1C7I726q-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-42" value="Level 3 :&lt;br&gt;Cards contain numbers and colors RED and BLACK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="527" y="630" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TILGJaxTvHGr1C7I726q-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="677" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-44" value="Level completed" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="637" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-46" value="Level 4 :&lt;br&gt;Cards contain HEARTS CLUBS DIAMONDS SPADES in RED and BLACK with a NUMBER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="542" y="790" width="278" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-51" value="CPU has cards that can not repeat: store card played&lt;br&gt;Game has to match the cards: match number on lvl1 / match numbers-color on lvl2 / match number-color-sign on lvl3&lt;br&gt;Local storage contains: playerName-playerScore-playerCardsPlayed / cpuCardsPlayed-(possibly more)&lt;br&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry y="1000" width="820" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TILGJaxTvHGr1C7I726q-52" target="TILGJaxTvHGr1C7I726q-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-52" value="Level 2 :&lt;br&gt;The 5 cards get shuffled" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="602" y="460" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-54" value="Level completed" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="637" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TILGJaxTvHGr1C7I726q-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.501;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TILGJaxTvHGr1C7I726q-54" target="TILGJaxTvHGr1C7I726q-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
